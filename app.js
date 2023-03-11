@@ -23,11 +23,12 @@ function changeAmount() {
     currency.exchangeAmount(amountArea.value)
     currency.change()
         .then(result => {
-            if (result === 0) {
+            if (result <= 0) {
                 ui.displayResultCurrency(null)
             }
             else {
-                ui.displayResultCurrency(result)
+                const resultItem = Number(result.toFixed(2))
+                ui.displayResultCurrency(resultItem + ` ${secondCurrency.value}`)
             }
         })
         .catch(err => console.log(err))
