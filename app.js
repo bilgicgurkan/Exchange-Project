@@ -1,7 +1,8 @@
 const amountArea = document.getElementById("numberInput");
 const firstCurrency = document.querySelector("#firstUnit");
 const secondCurrency = document.querySelector("#secondUnit");
-const currency = new Currency("USD", "TRY");
+const rotateBtn = document.querySelector(".rotateBtn");
+const currency = new Currency("TRY", "USD");
 const ui = new UI(firstCurrency, secondCurrency);
 
 changeEvent();
@@ -17,6 +18,7 @@ function changeEvent() {
         currency.changeSecondCurrency(secondCurrency.value);
         ui.displaySecondCurrency(secondCurrency.value);
     }
+    // rotateBtn.addEventListener("click", changeCurrencyDisplay)
 }
 
 function changeAmount() {
@@ -33,3 +35,8 @@ function changeAmount() {
         })
         .catch(err => console.log(err))
 }
+
+// function changeCurrencyDisplay() {
+//     ui.changeFirstCurrencyArea(secondCurrency.value)
+//     ui.changeSecondCurrencyArea(firstCurrency.value)
+// }
