@@ -5,14 +5,8 @@ body {
 
 
 .main-photo {
-    border: 2px solid #000;
     display: grid;
-    /* grid-template-columns: 50%; */
     justify-content: center;
-}
-
-.trade-image {
-    border: 2px solid #000;
 }
 
 .photo {
@@ -20,7 +14,6 @@ body {
 }
 
 .main-text {
-    border: 2px solid #000;
     display: flex;
     justify-content: center;
     font-size: 40px;
@@ -33,10 +26,9 @@ body {
 }
 
 #numberInput {
-    width: 175px;
-    height: 30px;
+    width: 100px;
+    height: 25x;
     /* border-radius: 5%; */
-    border: 0px solid #000;
 }
 
 .currencyOptionArea {
@@ -44,12 +36,10 @@ body {
     display: grid;
     grid-template-columns: 50% auto;
     justify-items: center;
-    border: 1px solid #000;
 }
 
 .optionAreaSecond {
-    border: 1px solid #000;
-    transition: 1s ease-out;
+    transition: 0.5s ease-out;
 }
 
 .optionAreaSecond:hover {
@@ -61,30 +51,32 @@ body {
     margin-top: 5px;
 }
 
-.optionAreaOne {
-    border: 1px solid #000;
-}
-
 .rotateBtn {
     font-size: 35px;
     cursor: pointer;
 }
 
 .exchange-area {
-    background-color: red;
-    margin-top: 10px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 50% auto;
+    font-size: large;
+    border: 1px dotted #000;
 }
 
 .currencyArea {
-    border: 1px solid #000;
     text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.firstCurrencyArea,
+.secondCurrencyArea {
+    font-style: italic;
 }
 
 .result-area {
     /* text-align: center; */
-    font-size: larger;
     display: grid;
     align-items: center;
     justify-content: center;
