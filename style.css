@@ -1,0 +1,91 @@
+body {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+
+.main-photo {
+    border: 2px solid #000;
+    display: grid;
+    /* grid-template-columns: 50%; */
+    justify-content: center;
+}
+
+.trade-image {
+    border: 2px solid #000;
+}
+
+.photo {
+    width: 350px;
+}
+
+.main-text {
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.numberInputArea {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#numberInput {
+    width: 175px;
+    height: 30px;
+    /* border-radius: 5%; */
+    border: 0px solid #000;
+}
+
+.currencyOptionArea {
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 50% auto;
+    justify-items: center;
+    border: 1px solid #000;
+}
+
+.optionAreaSecond {
+    border: 1px solid #000;
+    transition: 1s ease-out;
+}
+
+.optionAreaSecond:hover {
+    transform: rotate(180deg);
+
+}
+
+.secondCurrency {
+    margin-top: 5px;
+}
+
+.optionAreaOne {
+    border: 1px solid #000;
+}
+
+.rotateBtn {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.exchange-area {
+    background-color: red;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.currencyArea {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.result-area {
+    /* text-align: center; */
+    font-size: larger;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
