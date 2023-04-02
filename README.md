@@ -1,6 +1,6 @@
 ## Exchange API Project
 
-<sub> Exchange api kullanarak oluşturduğum bu projede API'den gelen pariteler vasıtasıyla kur farklarını ekran sergiletiyorum. </sub>
+<sub> Exchange api kullanarak oluşturduğum bu projede API'den gelen pariteler vasıtasıyla kur farklarını ekranda sergiletiyorum. </sub>
 
 ### Localimde ayağa kaldırdığım projenin videosunu YouTube linkine tıklayarak izeleyebilirsiniz.
 
